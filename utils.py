@@ -18,7 +18,7 @@ def get_images(response, image_api_req):
         image_list.append(image)
     
     db.session.add_all(image_list)
-    time.sleep(5)
+    time.sleep(10)
     image_api_req.is_completed = True
     db.session.commit()
     print("completed")
