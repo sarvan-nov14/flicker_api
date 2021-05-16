@@ -2,7 +2,7 @@ from enum import unique
 import uuid
 from datetime import datetime
 
-from api_v1 import app
+from app import app
 from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy.dialects.postgresql import JSON, UUID
 
