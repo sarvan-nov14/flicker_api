@@ -1,4 +1,4 @@
-# flicker_api(Flask|PostgreSQL)
+# Flicker API (Flask | PostgreSQL)
 Sample Flask app to fetch the images from Flicker using Flicker API
 
 ## 1. Initiate the image fetch API request
